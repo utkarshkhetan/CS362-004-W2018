@@ -1,0 +1,3 @@
+The first bug I found in my teammate Tim Forsyth’s code is a bug in the Smithy function where it draws only two cards rather than the three cards it should be drawing. This can severely throw off the balance of the game as every card in Dominion is well balanced with the others. Smithy is also supposed to discard a card, which it is doing correctly. I found it by running cardtest2 which tests the Smithy function.
+	The second bug I found in the code involved the adventurerEffect function. This function draws only one treasure card rather than the two it is supposed to draw according to the adventurer card. This is very similar to the first bug I found, and would have the same unbalancing effect on the game. I found this bug my running cardtest1.
+
